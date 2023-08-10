@@ -1,0 +1,443 @@
+{
+  "version": "2.0.3",
+  "summary": {
+    "title": "+test model+",
+    "owner": "+test owner+",
+    "description": "+testing report mechanisms+",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "03 - test diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.0.2",
+        "description": "test diagram description",
+        "cells": [
+          {
+            "position": {
+              "x": 230,
+              "y": 130.0000000000004
+            },
+            "size": {
+              "width": 170,
+              "height": 90.66666666666667
+            },
+            "attrs": {
+              "text": {
+                "text": "Out of scope"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": "5 2"
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 1,
+            "id": "578b5170-74f1-401d-a72f-c06ccc966ca0",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Out of scope",
+              "description": "",
+              "outOfScope": true,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 471,
+              "y": 130.33333333333374
+            },
+            "size": {
+              "width": 168.75,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "In scope"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 2,
+            "id": "cd7b94a3-65af-489e-a0f5-d2d173d6e8fc",
+            "data": {
+              "type": "tm.Actor",
+              "name": "In scope",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 230,
+              "y": 265.0000000000001
+            },
+            "size": {
+              "width": 168.75,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Out of scope\nwith unmitigated threat"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 3,
+                "strokeDasharray": "5 2"
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 3,
+            "id": "82149a02-1bcb-4d06-a93b-d498d94efa68",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Out of scope\nwith unmitigated threat",
+              "description": "",
+              "outOfScope": true,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "a05d7240-9259-47b3-9d4b-4c8806db2fc0",
+                  "title": "Out of scope threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 471,
+              "y": 265.0000000000001
+            },
+            "size": {
+              "width": 168.75,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "In scope\nwith unmitigated threat"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 3,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 4,
+            "id": "24e07ba1-cae4-4b8e-8a2d-b6a4a7279622",
+            "data": {
+              "type": "tm.Actor",
+              "name": "In scope\nwith unmitigated threat",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "cc9c55cf-bccf-491b-abe7-5a98f7df7e47",
+                  "title": "In scope threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 230.625,
+              "y": 401.0000000000001
+            },
+            "size": {
+              "width": 168.75,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Out of scope\nwith mitigated threat"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": "5 2"
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 5,
+            "id": "0f821963-ed5d-40ae-90c1-d3d7efa1ccdc",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Out of scope\nwith mitigated threat",
+              "description": "",
+              "outOfScope": true,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "53b811d5-fdf3-4a3e-bbaf-a1b134eb0be1",
+                  "title": "Out of scope threat mitigated",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 471,
+              "y": 401
+            },
+            "size": {
+              "width": 168.75,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "In scope\nwith mitigated threat"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 6,
+            "id": "1ce627a5-f18c-47cd-af71-164240ce1a3f",
+            "data": {
+              "type": "tm.Actor",
+              "name": "In scope\nwith mitigated threat",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "b6c24c40-2582-4c53-9d1e-0039e46ca769",
+                  "title": "In scope threat mitigated",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "01 - wide diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.0.3",
+        "description": "a wide diagram for landscape",
+        "cells": [
+          {
+            "position": {
+              "x": 20,
+              "y": 120
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "a3521f98-6f64-4f5d-bd86-f28899740c85",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Actor",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1500,
+              "y": 100
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "f390ac46-1720-45ee-a7ee-ea6406960f65",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Process",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "02 - another narrow diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.0.3",
+        "description": "a narrow diagram for portrait",
+        "cells": [
+          {
+            "position": {
+              "x": 100,
+              "y": 50
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "dfd95719-9e67-4997-97ad-ed7dc82aa004",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Actor",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 126.25,
+              "y": 1080
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "083819f2-b3e0-4a3c-babb-684ff6901b2e",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Process",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.0.3",
+        "cells": []
+      }
+    ],
+    "diagramTop": 5,
+    "reviewer": "+test reviewer+",
+    "threatTop": 4
+  }
+}
